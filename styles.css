@@ -1,0 +1,150 @@
+body {
+    height: auto;
+    overflow-x: hidden;
+}
+/*  Home page nav bar */
+.navbar {
+    /*color: rgb(255, 255, 255) !important;*/
+    background-color: black;
+    border-radius: 0px;
+}
+
+.contactNav {
+    background-color: white;
+    border-radius:  0px;
+}
+
+.CompanyLogo {
+    margin-left: 55%;
+}
+
+.moveNav {
+    margin-left: 8%;
+}
+/*  Home page intro img slider */
+ .introCarousel {
+    width: 135.3%;
+    margin-left: -18%;
+    margin-top: -25%;
+    height: 114vh;
+    overflow: hidden;
+}
+
+/*.carouselText1 {
+   background: black;
+    opacity: 0.6;
+}*/
+
+.carousalText {
+    margin-top: -25%;
+}
+
+.wellDestination {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #0fa1d8;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.rounded-circle {
+    width: 85%;
+    margin-top: 40%;
+    margin-left: 10%;
+    border-radius: 6%;
+}
+.destinationIcons {
+color: #337ab7;
+    font-size: 80px;
+    margin-left: 30%;
+}
+
+
+.homeContactUs {
+  font-family: Raleway-SemiBold;
+  font-size: 20px;
+  color: #04fff3;
+  letter-spacing: 1px;
+  line-height: 35px;
+  border: 2px solid #04fff3;
+  border-radius: 35px;
+  background: transparent;
+}
+
+.homeContactUs:hover {
+  color: #ffffff;
+  background: #04fff3;
+ /* border: 2px solid rgba(240, 173, 78, 1);  */
+}
+
+.homeContact{
+    position: absolute;
+    top: 231%;
+    left: 50%;
+    transform: translate(-58%, 125%);
+    opacity: 0.7;
+    background: black;
+    color: #04fff3;
+    margin-left: 6%;
+    width: 63%;
+}
+
+/* Login page styles */
+
+@import "bourbon";
+
+body {
+    background: #eee !important;
+}
+
+.wrapper {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.form-signin {
+    max-width: 380px;
+    padding: 15px 35px 45px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+
+    .form-signin-heading,
+    .checkbox {
+        margin-bottom: 30px;
+    }
+
+    .checkbox {
+        font-weight: normal;
+    }
+
+    .form-control {
+        position: relative;
+        font-size: 16px;
+        height: auto;
+        padding: 10px;
+        @include box-sizing(border-box);
+
+        &:focus {
+            z-index: 2;
+        }
+    }
+
+    input[type="text"] {
+        margin-bottom: -1px;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+
+    input[type="password"] {
+        margin-bottom: 20px;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
+}
