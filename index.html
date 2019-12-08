@@ -1,32 +1,280 @@
-  <!DOCTYPE html>
-  <html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 
-  <head>
-      <title>Bootstrap Example</title>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-  </head>
-  <body>
-      <div class="control">
-          <div class="wrapper">
-              <h2 class="form-signin-heading">Welcome to PaisaToRupee</h2>
-              <h3 class="form-signin-heading">Please login</h3>
-              <div class="form-group">
-                  <div class="col-md-4"></div>
-                  <div class="col-md-3">
-                      <input type="text" class="form-control" name="username" placeholder="Email Address" autofocus="" />
-                      <br>
-                      <input type="password" class="form-control" name="password" placeholder="Password">
-                      <label class="checkbox">
-                          <input type="checkbox" value="remember-me" id="rememberMe" name="rememberMe"> Remember me
-                      </label>
-                      <button class="btn btn-sm btn-primary btn-block" type="submit">Login</button>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </body>
-  </html>
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-fixed-top">
+        <div class="container-fluid contactNav">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="contact.html"><b class="CompanyLogo">PhoneNumber</b></a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav moveNav">
+                    <li class="active"><a href="">9999 99 9999</a></li>
+                    <li><a href="about.html">040-4142 4344</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <!--<li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>-->
+                </ul>
+            </div>
+        </div>
+        <div class="container-fluid primary">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="home.html"><b class="CompanyLogo">PaisaToRupee</b></a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav moveNav">
+                    <li class="active"><a href="home.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <!-- <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="about.html">About Us <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Page 1-1</a></li>
+            <li><a href="#">Page 1-2</a></li>
+            <li><a href="#">Page 1-3</a></li>
+          </ul>
+        </li> -->
+                    <li><a href="library.html">Library</a></li>
+                    <li><a href="classroom.html">Class Room</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Intro corosal -->
+    <div class="container">
+        <div id="myCarousel" class="carousel slide introCarousel" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+                <li data-target="#myCarousel" data-slide-to="4"></li>
+            </ol>
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="https://wallpapercave.com/wp/wp2128229.jpg" alt="Los Angeles" style="width:100%;">
+                    <div class="carousel-caption">
+                        <h2 class="carousalText">Welcome to paisatorupee</h2>
+                        <p> WITH GLOBAL STRATEGIES </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="https://wallpapercave.com/wp/wp2128226.jpg" alt="Chicago" style="width:100%;">
+                    <div class="carousel-caption">
+                        <h3 class="carousalText">Reach Your Destination</h3>
+                        <p>Learn from the Expert </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="https://i2.wp.com/d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/BA-hXw-8Gjd5eqbc4/videoblocks-stock-market-073-hd_hvtoxzzum_thumbnail-full01.png" alt="New york" style="width:100%;">
+                    <div class="carousel-caption">
+                        <h3 class="carousalText">Leave money issues with us</h3>
+                        <p>We help you managing asset </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="https://wallpapercave.com/wp/wp2128229.jpg" alt="Los Angeles" style="width:100%;">
+                    <div class="carousel-caption">
+                        <h3 class="carousalText">Quality Stocks</h3>
+                        <p>We help you with financial advisory </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="https://wallpapercave.com/wp/wp2128226.jpg" alt="Chicago" style="width:100%;">
+                    <div class="carousel-caption">
+                        <h3 class="carousalText">Proven Strategies</h3>
+                        <p>With over 14years of experience </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Left and right controls -->
+            <!-- Commented for future use -->
+            <!--<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>-->
+            <!-- </div>-->
+        </div>
+        <br>
+        <!--<div class="container">-->
+        <div class="row well wellDestination">
+            <div class="destination">
+                <h1 style="text-align: center; color: #10950e"><b>One place to your stock destination</b></h1>
+                <div class="col-md-4">
+                    <span class="glyphicon glyphicon-asterisk destinationIcons"></span>
+                    <h3 style="margin-left: 30%">Intraday</h3>
+                    <p style="margin-left: 20%">Lorem ipsum dolor sit amet<br> consectetur adipiscing elit.</p>
+                    <br>
+                    <span class="glyphicon glyphicon-screenshot destinationIcons"></span>
+                    <h3 style="margin-left: 0%; text-align: center">Swing/Positional trading</h3>
+                    <p style="margin-left: 20%">Lorem ipsum dolor sit amet<br> consectetur adipiscing elit.</p>
+                </div>
+                <div class="col-md-4">
+                    <img class="rounded-circle" src="https://www.investopedia.com/thmb/rhXpXK3pVPLlcp-RUL1iuwo4tyQ=/2120x1414/filters:fill(auto,1)/close-up-of-stock-market-data-on-digital-display-1058454392-c48e2501742f4c21ad57c25d6a087bd0.jpg" alt="Chicago">
+                </div>
+                <div class="col-md-4">
+                    <span class="glyphicon glyphicon-grain destinationIcons"></span>
+                    <h3 style="margin-left: 20%">Advisory Calls</h3>
+                    <p style="margin-left: 20%">Lorem ipsum dolor sit amet<br> consectetur adipiscing elit.</p>
+                    <br>
+                    <span class="glyphicon glyphicon-blackboard destinationIcons"></span>
+                    <h3 style="margin-left: 20%">Stock Lectures</h3>
+                    <p style="margin-left: 20%">Lorem ipsum dolor sit amet<br> consectetur adipiscing elit.</p>
+                    <br>
+                </div>
+                <br>
+            </div>
+        </div>
+        <hr>
+        <div class="row wellReviews">
+            <!--  well -->
+            <h1 style="text-align: center; color: #10950e"><b>Reviews</b></h1>
+            <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md-2">
+                    <img src="images/reviews/review1.jpg" alt="review 1" height="190px" width="180px">
+                    <h4 style="text-align: center">Srinu</h4>
+                    <p style="text-align: center">Nam luctus tincidunt enim, in ultrices elit placerat at.</p>
+                </div>
+                <div class="col-md-2">
+                    <img src="images/reviews/review2.jpg" alt="review 2" height="190px" width="180px">
+                    <h4 style="text-align: center">srikanth</h4>
+                    <p style="text-align: center">Nam luctus tincidunt enim, in ultrices elit placerat at.</p>
+
+                </div>
+                <div class="col-md-2">
+                    <img src="images/reviews/review3.jpg" alt="review 3" height="190px" width="180px">
+                    <h4 style="text-align: center">Vahira</h4>
+                    <p style="text-align: center">Nam luctus tincidunt enim, in ultrices elit placerat at.</p>
+
+                </div>
+                <div class="col-md-2">
+                    <img src="images/reviews/review4.jpg" alt="review 4" height="190px" width="180px">
+                    <h4 style="text-align: center">Sarvesh</h4>
+                    <p style="text-align: center">Nam luctus tincidunt enim, in ultrices elit placerat at.</p>
+
+                </div>
+                <div class="col-md-2">
+                    <img src="images/reviews/review5.jpg" alt="review 5" height="190px" width="180px">
+                    <h4 style="text-align: center">malik</h4>
+                    <p style="text-align: center">Nam luctus tincidunt enim, in ultrices elit placerat at.</p>
+
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md-2">
+                    <img src="images/reviews/review2.jpg" alt="review 2" height="190px" width="180px">
+                    <h4 style="text-align: center">Tarun</h4>
+                    <p style="text-align: center">Nam luctus tincidunt enim, in ultrices elit placerat at.</p>
+
+                </div>
+                <div class="col-md-2">
+                    <img src="images/reviews/review4.jpg" alt="review 4" height="190px" width="180px">
+                    <h4 style="text-align: center">Syam</h4>
+                    <p style="text-align: center">Nam luctus tincidunt enim, in ultrices elit placerat at.</p>
+
+                </div>
+                <div class="col-md-2">
+                    <img src="images/reviews/review1.jpg" alt="review 1" height="190px" width="180px">
+                    <h4 style="text-align: center">Bhaskar</h4>
+                    <p style="text-align: center">Nam luctus tincidunt enim, in ultrices elit placerat at.</p>
+                </div>
+                <div class="col-md-2">
+                    <img src="images/reviews/review5.jpg" alt="review 5" height="190px" width="180px">
+                    <h4 style="text-align: center">venki</h4>
+                    <p style="text-align: center">Nam luctus tincidunt enim, in ultrices elit placerat at.</p>
+
+                </div>
+                <div class="col-md-2">
+                    <img src="images/reviews/review3.jpg" alt="review 3" height="190px" width="180px">
+                    <h4 style="text-align: center">Keerthi</h4>
+                    <p style="text-align: center">Nam luctus tincidunt enim, in ultrices elit placerat at.</p>
+
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <img src="images/homeContactUs/contactus2.jpg" style="width: 102%; margin-left: -1%">
+            <div class="homeContact">
+                <div class="col-md-9">
+                    <h1>Wanna talk to us?</h1>
+                    <p>Please feel free to contact us. We're super happy to talk to you. Feel free to ask anything.</p>
+                    <br>
+                </div>
+                <div class="col-md-3">
+                    <br>
+                    <br>
+                    <button type="button" class="btn homeContactUs"><a href="contact.html"><b>CONTACT US</b></a></button>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <h1 style="text-align: center; color: #10950e"><b>OUR CASES</b></h1>
+            <div class="col-md-3 well" style="text-align: center; width: 23%; margin-left: 2%">
+                <img src="images/ourCases/case1.webp" width="230px" height="250px">
+                <h4><b>Advisory</b></h4>
+                <p>Best Stock Tips and Nifty tips and Posstional Best stock market tips are advice for Stock market trading for making huge profits</p>
+            </div>
+            <div class="col-md-3 well" style="text-align: center; width: 23%; margin-left: 1%">
+                <img src="images/ourCases/case2.jpg" width="230px" height="250px">
+                <h4><b>Positional Trades</b></h4>
+                <p>Position trading involves holding trades for weeks, months or even years. Position trading is another form of investing.</p>
+                
+            </div>
+            <div class="col-md-3 well" style="text-align: center; width: 23%; margin-left: 1%">
+                <img src="images/ourCases/case3.png" width="230px" height="250px">
+                <h4><b>Risk Management</b></h4>
+                <p>The forecasting and evaluation of financial risks together with the identification of procedures to avoid or minimize their impact.</p>
+            </div>
+            <div class="col-md-3 well" style="text-align: center; width: 23%; margin-left: 1%">
+                <img src="images/ourCases/case4.jpg" width="230px" height="250px">
+                <h4><b>Money Management</b></h4>
+                <p>Money management is the process of investing, budgeting and banking of ones money which is also called investment management.</p>
+            </div>
+        </div>
+        <hr>
+        <br>
+        <br>
+        <br>
+        <br>
+    </div>
+</body>
+
+</html>
