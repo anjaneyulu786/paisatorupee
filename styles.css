@@ -8,18 +8,24 @@ body {
     background-color: black;
     border-radius: 0px;
 }
-
+.navContact {
+    color: white;
+}
 .contactNav {
     background-color: white;
     border-radius:  0px;
 }
 
 .CompanyLogo {
-    margin-left: 55%;
+    margin-left: 70%;
 }
 
 .moveNav {
     margin-left: 8%;
+}
+
+.navList {
+    color: #00d0ff;
 }
 /*  Home page intro img slider */
  .introCarousel {
