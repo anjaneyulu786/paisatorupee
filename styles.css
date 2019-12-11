@@ -101,14 +101,47 @@ color: #337ab7;
     width: 63%;
 }
 
+/*  Services styles  */
+.servicesManagement {
+    font-size: 16px;
+     line-height: 1.6; 
+  font-family: Helvetica;
+  text-align: justify;
+}
+/*
+
+.wrapper {
+  column-count: 2;
+  column-gap: 50px;
+  padding: 50px;
+}
+
+.servicesManagement {
+  line-height: 1.6; 
+  font-family: Helvetica;
+  text-align: justify;
+  margin: 0;
+  font-size: 14px;
+}
+
+.star {
+  float: left;
+  width: 250px;
+  shape-outside: url(https://upload.wikimedia.org/wikipedia/commons/3/34/Red_star.svg);
+  shape-margin:40px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+*/
+
+
 /*  Footer styles  */
 
 .footerRow {
     background-color: black;
-    position: fixed;
     bottom: 0px;
-    width: 101%;
-    left: 0px;
+    width: 134%;
+    margin-left: -190px;
 }
 
 /*  About page styles  */
