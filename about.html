@@ -1,30 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Bootstrap Example</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-</head>
-<body>
 
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      <a class="navbar-brand" href="#">WebSiteName</a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-        <li><a href="home.html">Home</a></li>
-        <li class="active"><a href="about.html">About Us</a></li>
-         <!-- <li class="dropdown">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-fixed-top">
+        <div class="container-fluid contactNav" style="background-image: linear-gradient(to bottom right, #00fff3, #0d9feb);">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href=""><b class="CompanyLogo navContact" style="margin-left: 125%">Contact</b></a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav moveNav">
+                   <br>
+                    <li class="active navContact" style="margin-top: -2%;">9999 99 9999</li> 
+                    <li class="navContact" style="margin-top: -2%;"> &nbsp; &nbsp; &nbsp; 040-4142 4344</li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <!--<li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>-->
+                </ul>
+            </div>
+        </div>
+        <div class="container-fluid primary">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="home.html"><b class="CompanyLogo" style="color: red"><b>PaisaToRupee</b></b></a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav moveNav">
+                    <li><a href="home.html" class="navList">Home</a></li>
+                    <li class="active"><a href="about.html" class="navList">About Us</a></li>
+                    <!-- <li class="dropdown">
           <a class="dropdown-toggle" data-toggle="dropdown" href="about.html">About Us <span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href="#">Page 1-1</a></li>
@@ -32,23 +55,93 @@
             <li><a href="#">Page 1-3</a></li>
           </ul>
         </li> -->
-        <li><a href="library.html">Library</a></li>
-        <li><a href="classroom.html">Class Room</a></li>
-        <li class="active"><a href="services.html">Services</a></li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
-  
-<div class="container">
-  <h3>About page</h3>
-  <p>In this example, the navigation bar is hidden on small screens and replaced by a button in the top right corner (try to re-size this window).
-  <p>Only when the button is clicked, the navigation bar will be displayed.</p>
-</div>
+                    <li><a href="library.html" class="navList">Library</a></li>
+                    <li><a href="classroom.html" class="navList">Class Room</a></li>
+                    <li><a href="services.html" class="navList">Services</a></li>
+                    <li><a href="contact.html" class="navList">Contact Us</a></li>
 
-</body>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html" class="navList"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                    <li><a href="index.html" class="navList"><span class="glyphicon glyphicon-log-in "></span> Login</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container" style="margin-top: 10%;">
+        <div class="row">
+            <div class="col-md-8">
+                <h1 class="aboutUs"><b>About Us</b></h1>
+               <h3 style="text-align: center; margin-top: -1%;">Read the story behind our success</h3>
+                <p style="font-size: 17px">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc condimentum augue eros, ut bibendum felis efficitur non. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer lacinia ut ligula nec euismod. Sed in elit finibus, eleifend quam non, porttitor eros. In hac habitasse platea dictumst. Pellentesque convallis, orci id lobortis pulvinar, lacus lectus pharetra urna, eget porta velit leo eget massa.</p>
+                <p style="font-size: 17px">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Integer lacinia ut ligula nec euismod. Sed in elit finibus, eleifend quam non, porttitor eros. In hac habitasse platea dictumst. Pellentesque convallis, orci id lobortis pulvinar, lacus lectus pharetra urna, eget porta velit leo eget massa. Integer lacinia ut ligula nec euismod. Sed in elit finibus, eleifend quam non, porttitor eros. In hac habitasse platea dictumst. Pellentesque convallis, orci id lobortis pulvinar, lacus lectus pharetra urna, eget porta velit leo eget massa.</p>
+            </div>
+            <div class="col-md-4">
+                <img src="images/loginImages/login1.jpg" alt="bull" width="300px" height="320px" style="margin-top: 5%;">
+            </div>
+        </div>
+        <br>
+        <hr>
+         <div class="row well">
+            <h1 class="aboutTeam"><b>Team</b></h1>
+            <br>
+            <div class="col-md-3" style="text-align: center; width: 23%; margin-left: 2%">
+                <img src="images/ourCases/case1.webp" width="230px" height="250px">
+                <h4><b>Srikanth</b></h4>
+                <p>Founder and Trainer </p>
+            </div>
+            <div class="col-md-3" style="text-align: center; width: 23%; margin-left: 1%">
+                <img src="images/ourCases/case2.jpg" width="230px" height="250px">
+                <h4><b>Sushmitha</b></h4>
+                <p>Founder & CEO</p>
+                
+            </div>
+            <div class="col-md-3" style="text-align: center; width: 23%; margin-left: 1%">
+                <img src="images/ourCases/case3.png" width="230px" height="250px">
+                <h4><b>Tarun</b></h4>
+                <p>Trainer with 8years of experience</p>
+            </div>
+            <div class="col-md-3" style="text-align: center; width: 23%; margin-left: 1%">
+                <img src="images/ourCases/case4.jpg" width="230px" height="250px">
+                <h4><b>Teja</b></h4>
+                <p>Trainer with 10+ years of experience</p>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="aboutAchievements"><b>Achievements</b></h1>
+               <ul style="margin-left: -2%; font-size: 16px; line-height: 40px;"> 
+                <li>&nbsp; Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc condimentum augue eros, ut bibendum felis efficitur non.   </li>
+                <li>&nbsp; Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</li>
+                <li>&nbsp; Sed in elit finibus, eleifend quam non, porttitor eros. In hac habitasse platea dictumst.</li>
+                <li>&nbsp; Pellentesque convallis, orci id lobortis pulvinar, lacus lectus pharetra urna, eget porta velit leo eget massa.</li>
+                <li>&nbsp; Integer lacinia ut ligula nec euismod.</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-md-6">
+                <span class="glyphicon glyphicon-asterisk" style="font-size: 55px; float: left"></span>
+                <h2>A Team of proffessionals</h2>
+                <p>Our team of highly qualified professionals with technological and fundamental knowledge. We have several years' experience in the sector, proving our expertise.</p>
+            </div>
+            <div class="col-md-6">
+               <span class="glyphicon glyphicon-asterisk" style="font-size: 55px; float: left"></span>
+                <h2>Analyze your Trades</h2>
+                <p>The Smartest Way To Learn From Your Own Trading and Mistakes. Do you know which instrument is ideal for you? Do you want to know your strengths</p>
+            </div>
+        </div>
+        <hr>
+    </div>
+    </body>
 </html>
+
+
+
+
+
+
+
+

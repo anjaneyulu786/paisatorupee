@@ -101,6 +101,21 @@ color: #337ab7;
     width: 63%;
 }
 
+/*  Footer styles  */
+
+.footerRow {
+    background-color: black;
+    position: fixed;
+    bottom: 0px;
+    width: 101%;
+    left: 0px;
+}
+
+/*  About page styles  */
+.aboutUs, .aboutTeam, .aboutAchievements {
+    text-align: center;
+    color: darkturquoise;
+}
 /* Login page styles */
 
 @import "bourbon";
